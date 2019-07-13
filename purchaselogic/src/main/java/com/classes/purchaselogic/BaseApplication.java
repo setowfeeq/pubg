@@ -94,7 +94,7 @@ public abstract class BaseApplication extends Application {
         image.eraseColor(Color.BLUE);
 
         Notification notification = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID)
-                .setContentTitle("Licance Purchase code is not Verified")
+                .setContentTitle("Purchase code is not verified")
                 .setTicker("Verify")
                 .setContentText("Whatsapp us on +91-8160610437")
                 .setSmallIcon(android.R.drawable.sym_action_call)
