@@ -57,7 +57,7 @@ public abstract class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
 //        Kozuza.a(this, this.getPurchaseCode(), this.getProduct());
-        Toast.makeText(a, "Get Purchage code"+ this.getPurchaseCode(), Toast.LENGTH_SHORT).show();
+//        Toast.makeText(a, "Get Purchage code"+ this.getPurchaseCode(), Toast.LENGTH_SHORT).show();
 
         new OneLoadAllProducts().execute();
 
