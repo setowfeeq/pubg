@@ -176,7 +176,7 @@ public abstract class BaseApplication extends Application {
                         // jsonarray found
                         // Getting Array of jsonarray
 
-                    } else {
+                    } else if (success == 2){
                         /*
                           Updating parsed JSON data into ListView
                          */
